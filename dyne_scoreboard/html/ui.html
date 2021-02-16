@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+</head>
+    <body>
+        <div class="container">
+            <div class="scoreboard-block">
+                <div class="scoreboard-info">
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title" style="font-size: 1.0vw;"><p>INFO</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="info-space"></div>
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title" style="font-size: 0.7vw; color: white;"><p>Nombre:</p></div>
+                        <div class="info-beam-status" id="player-name" style="font-size: 0.7vw; color: white;"></div>
+                    </div>
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title" style="font-size: 0.7vw; color: white;"><p>ID:</p></div>
+                        <div class="info-beam-status" id="player-id" style="font-size: 0.7vw; color: white;"></div>
+                    </div>
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title" style="font-size: 1.0vw;"><p>DELICTIVO</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="info-space"></div>
+                    <div class="scoreboard-info-beam" data-type="tienda">
+                        <div class="info-beam-title" style="font-size: 0.6vw; color: white;"><p>Tienda:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="banco">
+                        <div class="info-beam-title" style="font-size: 0.6vw; color: white;"><p>Banco:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="joyeria">
+                        <div class="info-beam-title" style="font-size: 0.6vw; color: white;"><p>Joyería:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="bancogrande">
+                        <div class="info-beam-title" style="font-size: 0.6vw; color: white;"><p>Banco grande:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title" style="font-size: 1.0vw;"><p>RECUENTO</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="info-space"></div>
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-status" id="jobs" style="font-size: 0.9vw; color: white; left: 1.0vh;"></div>
+                    </div>
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title" style="font-size: 1.0vw;"><p>SERVIDOR</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="info-space"></div>
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title2" style="left: 1vh;"><p>Jugadores:</p></div>
+                        <div class="info-beam-status2" id="total-players" style="font-size: 0.7vw; left: 8.5vh;"></div>
+                    </div>
+                    <div class="scoreboard-info-beam">
+                        <div class="info-beam-title2" style="font-size: 0.7vw; left: 1vh;"><p>Tiempo jugado:</p></div>
+                        <div class="info-beam-status2" id="play-time" style="font-size: 0.7vw; left: 12vh;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.container {
+    height: 100vh;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.scoreboard-block {
+    display: none;
+    position: absolute;
+    height: 55vh;
+    width: 40vh;
+    background: rgba(68, 68, 68, 0.658);
+    right: 45px;
+    top: 260px;
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 0.5vw;
+    border-top: 2px solid #d3d3d3 !important;
+    border-bottom: 2px solid #d3d3d3 !important;
+	border-left: 2px solid #d3d3d3 !important;
+	border-right: 2px solid #d3d3d3 !important;
+}
+
+.info-space {
+    height: 0.1vw;
+    background-color: rgba(115, 115, 115, 35);
+    border-radius: 0.3vw;
+    width: 370;
+}
+
+.scoreboard-info {
+    position: relative;
+    height: 47vh;
+    width: 36vh;
+    top: 45%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+
+.scoreboard-info-header {
+    position: relative;
+    height: 2vh;
+}
+
+#info-tab-label {
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    left: 1vh;
+    font-weight: bold;
+}
+
+.info-beam-title {
+    position: absolute;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 1.4vh;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1vh;
+    left: 1vh;
+    line-height: 4.8vh;
+}
+
+.info-beam-title2 {
+    position: absolute;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 1.1vh;
+    color: rgba(255, 255, 255, 0.459);
+    font-weight: bold;
+    letter-spacing: 0.1vh;
+    left: 10vh;
+    line-height: 4.8vh;
+}
+
+.info-beam-title-ambulance {
+    position: absolute;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 1.4vh;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1vh;
+    left: 1vh;
+    line-height: 4.8vh;
+}
+
+.info-beam-status2 {
+    position: absolute;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 1.1vh;
+    color: rgba(223, 223, 223, 0.712);
+    font-weight: bold;
+    letter-spacing: 0.1vh;
+    right: 10vh;
+    line-height: 4.8vh;
+}
+
+#status-tab-label {
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    right: 3vh;
+    font-weight: bold;
+}
+
+.info-beam-status {
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    right: 3vh;
+    line-height: 4.8vh;
+    float: left;
+    text-align: left;
+}
+
+.scoreboard-info-beam {
+    position: relative;
+    height: 4vh;
+    width: 100%;
+}
+
+.fa-times {
+    color: rgb(170, 27, 27);
+}
+
+.fa-check {
+    color: rgb(59, 141, 49);
+}
+
+.fa-ambulance {
+    color: rgb(226, 32, 6);
+}
+
+.fa-clock {
+    color: rgb(255, 190, 50);
+}
+
+.sb-logo {
+    width: 15vh;
+    margin: 0.6vh;
+}
