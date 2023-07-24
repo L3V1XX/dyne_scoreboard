@@ -1,5 +1,5 @@
 # dyne_blacshop
- Script con distintos NPCs y localizaciones
+ Script con para un scoreboard para distintos trabajos
 
  Hecho por Dyne
 
